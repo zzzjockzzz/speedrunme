@@ -1,0 +1,50 @@
+<style>
+    canvas {
+        padding: 0;
+        margin: auto;
+        display: block;
+        border-color: gray;
+        border-width: 1px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /* position h1 right above canvas */
+    h1#time-heading {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 50px;
+        color: white;
+    }
+
+    h1,
+    p {
+        font-family: 'Courier', monospace;
+        font-smooth: never;
+    }
+</style>
+
+<center>
+    <p> copyright, jack strating, 2024</p>
+</center>
+
+<center>
+    <p>beat it in under 2 minutes, and you forever have my respect.</p>
+    <h1 id="seconds">
+</center>
+
+<canvas></canvas>
+
+
+<script src="js/utils.js"></script>
+<script src="js/data/collisions.js"></script>
+<script src="js/classes/collision.js"></script>
+<script src="js/classes/player.js"></script>
+<script src="js/eventListeners.js"></script>
+
+<script src="js/main.js"></script>
+
